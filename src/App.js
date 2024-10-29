@@ -70,7 +70,7 @@ function App() {
     >
       <div className="body-wrapper">
         <div className="logo-wrapper">
-          {/*   <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="" /> */}
+          <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="" />
         </div>
 
         <div className="biggest-title">Bảng khảo sát nhóm</div>
@@ -97,10 +97,10 @@ function App() {
               <Col span={4} className="column-title">
                 <img
                   className="image"
-                  src={process.env.PUBLIC_URL + "/images/cau-be-bong-den.png"}
+                  src={process.env.PUBLIC_URL + "/images/girl-kinh-lup.png"}
                   alt="image"
                 />
-                <div className="title left-title text-beauty">Tôi nghĩ</div>
+                <div className="title left-title text-beauty">Tôi thấy</div>
               </Col>
               <Col span={19} className="flex-center">
                 <div className="title right-div">
@@ -124,10 +124,10 @@ function App() {
               <Col span={4} className="column-title">
                 <img
                   className="image flip"
-                  src={process.env.PUBLIC_URL + "/images/girl-kinh-lup.png"}
+                  src={process.env.PUBLIC_URL + "/images/cau-be-bong-den.png"}
                   alt="image"
                 />
-                <div className="title left-title text-beauty">Tôi thấy</div>
+                <div className="title left-title text-beauty">Tôi nghĩ</div>
               </Col>
               <Col span={19} className="flex-center">
                 <div className="title right-div">
