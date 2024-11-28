@@ -1,7 +1,7 @@
 import "./App.scss";
 import "antd/dist/reset.css";
 import { Button, Col, Modal, Row } from "antd";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import {
   FormatPainterOutlined,
   CloseCircleOutlined,
@@ -89,6 +89,11 @@ function App() {
             onClick={() => setChooseGroup(3)}
             name="NHÓM 3"
             isActive={chooseGroup === 3}
+          />
+          <ButtonGroup
+            onClick={() => setChooseGroup(4)}
+            name="NHÓM 4"
+            isActive={chooseGroup === 4}
           />
         </div>
         <div className="bigger-wrapper">
